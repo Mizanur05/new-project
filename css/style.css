@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+img{
+	vertical-align: middle;
+	border: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,.navbar{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+/*common css end*/
+
+.header-area{
+	padding: 20px 0px;
+}
+.header-area .nav-item{
+	margin-left: 35px;
+}
+.header-area .nav-item .nav-link{
+	color: #2d3950;
+	/*font-weight: 700;*/
+	font-style: 20px;
+}
+.header-area .nav-item .nav-link:hover{
+	color: #15a4fa;
+}
+
+/*Header area end*/
+.banner_area{
+	background: url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner_area .banner_content{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	height: 100vh;
+	align-items: center;
+}
+.banner_content h1{ 
+	font-size: 120px;
+	color: #fff;
+	border-bottom: 2px solid #15a4fa;
+	display: inline-block;
+	padding: 0px 90px;
+	font-weight: 400;
+}
+.banner_content p{
+	font-size: 20px;
+	color: #fff;
+	margin: 30px 0px;
+}
+.banner_content .banbtn a{
+	padding: 15px 30px;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: .5s;
+}
+.banner_content .banbtn a:hover{
+	background:  #15a4fa;
+}
+.banner_content .allaw{
+	font-size: 35px;
+	margin-top: 90px;
+	display: inline-block;
+	color: #fff;
+}
+
+/*Banner part css End*/
+.ab-content{
+	background: #f6f9f9;
+}
+.ab-content h2{
+	padding: 50px 0px 30px 0px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	color: #2d3950;
+}
+.ab-content p{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: #999999;	
+}
+
+/*ABOUT CSS END*/
+
+.service-area{
+	padding: 65px;
+}
+.service-item{
+		margin: 0 auto;
+		text-align: center;
+}
+.service-item .ser-icon{
+	margin: 0 auto;
+	height: 100px;
+	width: 100px;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+}
+.service-item .ser-con{
+	padding: 0px 20px;
+}
+.service-item .ser-con h3{
+	font-size: 22px;
+	color: #2d3950;
+	margin: 30px 0px 15px;
+}
+.service-item .ser-con p{
+	font-size: 16px;
+	color: #999999;
+}
+
+/*service css end*/
+
+.portfolio_area{
+	background: #f6f9f8;
+	padding: 80px 0px;
+}
+.port_head{
+	text-align: center;
+}
+.port_head h2{
+	font-size: 40px;
+	color: #2d3950;
+}
+.port_head p{
+	margin: 20px 0px 80px;
+	color: #909090;
+	font-size: 15px;
+}
+.port_item{
+	position: relative;
+}
+.port_overlay{
+	height: 0%;
+	width: 100%;
+	background: rgba(21, 164, 250, 0.9);
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	transition: all linear .3s;
+}
+.obbtn{
+	display: flex;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.obbtn a{
+	height: 40px;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	color: #fff;
+	margin-right: 10px;
+}
+.port_item:hover .port_overlay{
+	opacity: 1;
+	height: 100%;
+}
+.pmt{
+	margin-top: 30px;
+}
+
+/*port area css end*/
+
+.f_contact{
+	background: url("../img/contact.jpg");
+	
+}
+.f_overlay{
+	background: #2c374c;
+	opacity: .9;
+	padding: 80px 0px;
+}
+.fc_head{
+	text-align: center;
+}
+.fc_head h2{
+	font-size: 40px;
+	color: #fff;
+}
+.fc_head p{
+	margin: 20px 0px 80px;
+	font-size: 15px;
+	color: #999999;
+}
+.btn{
+	padding: 10px 30px;
+}
+.f_copy{
+	padding: 25px;
+}
+.f_copy p{
+	font-size: 15px;
+	color: #999999;
+	text-align: start;
+}
+.f_copy a{
+	background:  #15a4fa;
+	color: #fff;
+	padding: 10px 20px;
+	margin-right: 5px;
+	border: 1px solid  #15a4fa;
+}
+.f_copy a:hover{
+	color: #999999;
+}
+.f_copy{
+	text-align: right;
+}
